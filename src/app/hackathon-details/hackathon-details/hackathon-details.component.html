@@ -1,0 +1,48 @@
+<header>
+    <div class="header-container">
+      <img src="assets/aiplanet.png" alt="Logo" class="logo" />
+     
+    </div>
+  </header>
+  <mat-card class="color">Challenge Details</mat-card>
+<div class="hackathon-form">
+    <!-- Challenge Name -->
+    <mat-form-field appearance="fill" class="custom-field">
+      <mat-label>Challenge Name</mat-label>
+      <input matInput type="text" placeholder="Enter Challenge Name" />
+    </mat-form-field>
+  
+    <!-- Start Date -->
+    <mat-form-field appearance="fill" class="custom-field">
+      <mat-label>Start Date</mat-label>
+      <input matInput [matDatepicker]="startPicker" (dateChange)="validateDates()" [min]="minStartDate" placeholder="Choose a date" />
+      <mat-datepicker-toggle matSuffix [for]="startPicker"></mat-datepicker-toggle>
+      <mat-datepicker #startPicker></mat-datepicker>
+    </mat-form-field>
+  
+    <!-- End Date -->
+    <mat-form-field appearance="fill" class="custom-field">
+      <mat-label>End Date</mat-label>
+      <input matInput [matDatepicker]="endPicker" (dateChange)="validateDates()" [min]="minEndDate" placeholder="Choose a date" />
+      <mat-datepicker-toggle matSuffix [for]="endPicker"></mat-datepicker-toggle>
+      <mat-datepicker #endPicker></mat-datepicker>
+    </mat-form-field>
+  
+    <!-- Description -->
+    <mat-form-field appearance="fill" class="custom-field">
+      <mat-label>Description</mat-label>
+      <textarea matInput rows="5" placeholder="Enter description"></textarea>
+    </mat-form-field>
+  
+    <!-- Upload Image -->
+    <div class="upload-container">
+      <input type="file" id="file-upload" (change)="onFileSelected($event)" />
+      <label for="file-upload" class="file-upload-label">
+        <i class="material-icons cloud-icon">cloud_upload</i> Upload Image
+      </label>
+    </div>
+  
+    <!-- Submit Button -->
+    <button mat-raised-button class="submit-button" (click)="GoToHomePage()">Submit</button>
+  </div>
+  

@@ -1,0 +1,46 @@
+<div class="search-filter-container">
+    <!-- Search Filter -->
+    <mat-form-field appearance="fill" class="custom-search-field">
+      <mat-label>Search Items</mat-label>
+      <input type="text" matInput [formControl]="searchControl" [matAutocomplete]="auto">
+      <mat-autocomplete #auto="matAutocomplete">
+        <mat-option *ngFor="let option of filteredOptions | async" [value]="option">
+          {{ option }}
+        </mat-option>
+      </mat-autocomplete>
+    </mat-form-field>
+  
+    <!-- Filter Dropdown -->
+     <!-- Filter dropdown should be enhanced a little -->
+    <mat-form-field appearance="fill" class="custom-filter-dropdown">
+      <mat-label>Filter</mat-label>
+      <mat-select panelClass="dropdown-below" disableOptionCentering="true">
+        <mat-optgroup label="Status">
+          <mat-option>
+            <mat-checkbox>All</mat-checkbox>
+          </mat-option>
+          <mat-option>
+            <mat-checkbox>Active</mat-checkbox>
+          </mat-option>
+          <mat-option>
+            <mat-checkbox>Upcoming</mat-checkbox>
+          </mat-option>
+          <mat-option>
+            <mat-checkbox>Past</mat-checkbox>
+          </mat-option>
+        </mat-optgroup>
+        <mat-optgroup label="Level">
+          <mat-option>
+            <mat-checkbox>Easy</mat-checkbox>
+          </mat-option>
+          <mat-option>
+            <mat-checkbox>Medium</mat-checkbox>
+          </mat-option>
+          <mat-option>
+            <mat-checkbox>Hard</mat-checkbox>
+          </mat-option>
+        </mat-optgroup>
+      </mat-select>
+    </mat-form-field>
+  </div>
+  

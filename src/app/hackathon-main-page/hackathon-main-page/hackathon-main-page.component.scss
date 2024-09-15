@@ -1,0 +1,50 @@
+.tab-card {
+    background-color: #003145; /* Background color for the card */
+    color: white; /* White text for the buttons */
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 0; /* Optional: remove the card's rounded corners */
+    box-shadow: none; /* Optional: remove card shadow if not needed */
+  }
+  
+  .edit-padding{
+   
+    padding-left: 80%;
+    
+  }
+  .delete-padding{
+    border-radius: 8px;
+    
+    padding-left:10px;
+
+  }
+  .edit-button{
+    background: #44924C;
+    border-radius: 8px;
+  }
+  .delete-color{
+    border-radius: 8px;
+    color: #ef1b29;
+    border:2px solid #ef1b29;
+  }
+  .heading{
+    margin-left: 20px;
+    font-size: large;
+  }
+  h3{
+    font-size: 180%;
+  }
+  .row-align{
+    display: flex;
+    flex-direction: row;
+ }
+ .para{
+    color:grey;
+    font-size: large;
+    margin-top: 10px;
+    margin-left:5px;
+   
+   }
+   .hackathon-heading-color{
+    background-color: #FFCE5C;
+   }

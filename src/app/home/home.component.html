@@ -1,0 +1,108 @@
+<header>
+    <div class="header-container">
+      <img src="assets/aiplanet.png" alt="Logo" class="logo" />
+     
+    </div>
+  </header>
+  <mat-card class="tab-card">
+     <div class="content-wrapper">
+    <div class="tab-container">
+       
+        <img src="assets/rocket.png" alt="rocket" class="rocket" />
+           
+        <div class="vertical-bar">
+        <h2>
+            Accelerate Innovation with Global AI challenges
+         </h2>
+        
+         
+        </div>
+         <p>
+            AI Challenges at DPhi simulate real-world problems. It is a great place to put your AI/Data Science skills to test on diverse datasets allowing you to foster
+            learning through competitions.
+         </p>
+       
+        
+        </div>
+    </div>
+    <button mat-button class="button" (click)="OnClick()">Create Hackathon</button>
+  </mat-card>
+  <mat-card class="tab-card2">
+    <div class="row-align icons-align">
+        
+        <img src="assets/ai chip.png" alt="ai_chip" class="logo" />
+        <div clas="column-align">
+        {{number_of_chips}}
+        <div>
+            AI Model Submissions
+        </div>
+        </div>
+        <div class="vertical-line"></div>
+        <img src="assets/50k.png" alt="50K" class="logo" />
+        <div clas="column-align">
+        {{data_scientists}}
+        <div>
+            Data Scientists
+        </div>
+    </div>
+    <div class="vertical-line"></div>
+    
+        <img src="assets/lock.png" alt="lock" class="logo" />
+        <div clas="column-align">
+        {{hosted}}
+        <div>
+            AI Challenges Hosted
+        </div>
+    </div>
+    </div>
+
+  </mat-card>
+  <mat-card>
+    <span class="heading-bold-text">Why participate in </span>
+                <span class="heading-color">AI Challenges?</span>
+    <div class="column-align">
+        <div class="row-align">
+           <mat-card class="tab-card3">
+            
+
+            <!-- <div class="row-align"> -->
+                <img src="assets/proving_skills_icon.png" alt="proveing_icon" class="logo" />
+            <h3 class="bold-text">Prove your Skills</h3>
+            <p class="cardinfo">Gain substantial experience by solving real-world 
+                problems and pit against others to come up with innovative solutions.</p>
+            <!-- </div> -->
+
+           </mat-card>
+            <mat-card class="tab-card3">
+                <img src="assets/grouping_icon.png" alt="grouping_icon" class="logo" />
+                <h3 class="bold-text">Learn from community</h3>
+                <p class="cardinfo">One can look and analyze the solutions submitted by the other 
+                    Data Scientists in the community and learn from them.</p>
+            </mat-card>
+        </div>
+
+        <div class="row-align gap">
+            <mat-card class="tab-card3">
+                <img src="assets/challenge_icon.png" alt="challenge_icon" class="logo" />
+                <h3 class="bold-text">Challenge yourself</h3>
+                <p class="cardinfo">There is nothing for you to lose by participating in a challenge. 
+                    You can fail safe,learn out of the entire experience and bounce back harder.
+
+                </p>
+            </mat-card>
+            <mat-card class="tab-card3">
+                <img src="assets/earning_icon.png" alt="earning_icon" class="logo" />
+                <h3 class="bold-text">Earn recognition</h3>
+                <p class="cardinfo">You will stand out from the crowd if you do well in AI challenges, it not only 
+                    helps you shine in the community but also earns rewards.</p>
+            </mat-card>
+        </div>
+
+    </div>
+  </mat-card>
+  <mat-card class="color-black">
+<app-search></app-search>
+  </mat-card>
+  <mat-card class="padding">
+<app-hackathons-list></app-hackathons-list>
+  </mat-card>

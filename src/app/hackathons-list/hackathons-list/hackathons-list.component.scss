@@ -1,0 +1,49 @@
+.size{
+    height:350px;
+    width:247px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    text-align: center; /* Center-align text */
+   
+    min-height: 200px; 
+    
+}
+
+.image{
+    height:50%;
+    width:100%;
+}
+.filter{
+    width:20%;
+    border-radius: 8px;
+    margin-left:40%;
+    background-color: aquamarine;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.submit-button {
+    width: 100%; /* Full width button */
+    background: #44924C;
+
+  }
+  .h4{
+    text-align: center;
+   
+  }
+  .column-align{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+ }
+ .row-align{
+    display: flex;
+    flex-direction: row;
+   
+    gap:50px;
+    
+ }

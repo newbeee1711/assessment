@@ -1,0 +1,161 @@
+/* Styling for the header */
+.header-container {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logo {
+    width: 50px;
+    height: auto;
+    margin-right: 20px;
+  }
+  .rocket{
+  right: 0;
+  height: 100px;
+  display: flex;
+  position: absolute;
+  margin-right: 20px; 
+  margin-left:90%
+    
+
+  }
+  
+ .content-wrapper{
+    display: flex;
+  align-items: center;
+ }
+
+ .tab-card2{
+    background-color: #002A3B;
+    ; 
+    color: white;
+  
+    padding: 10px;
+    border-radius: 0; 
+    box-shadow: none; 
+ }
+
+ .row-align{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap:50px;
+    
+ }
+ .cardinfo{
+  color:grey;
+  padding-left:0px;
+  width:471px;
+ }
+ .tab-card3{
+  background: #F8F9FD;
+
+ }
+ .bold-text {
+    font-weight: bold 30pt;
+  }
+ .icons-align{
+    margin-right:1px;
+    justify-content:center; 
+  gap: 50px; 
+ }
+ .column-align{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+ }
+
+ .vertical-line {
+    border-left: 1px solid white;
+    height: 50px;
+    margin: 0 10px;
+  }
+.padding{
+  background-color: #003145; 
+    color: white; 
+    
+    padding: 10px;
+    border-radius: 0; 
+    box-shadow: none; 
+}
+.color-black{
+  background-color: #002A3B; 
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 0; 
+  box-shadow: none;
+}
+  
+  /* Styling for the tab card */
+  .tab-card {
+    background-color: #003145; 
+    color: white; 
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 0; 
+    box-shadow: none;
+  }
+  
+  .tab-container {
+    display: flex;
+    justify-content: space-around;
+    padding-left:143px;
+    flex-direction: column;
+  }
+  h2{
+    padding-left:20px;
+    margin-top: 10px;
+    width: 643px; 
+  }
+.heading-bold-text{
+  margin-left:40%;
+  font-size: larger;
+ 
+}
+.heading-color{
+  padding-left:1px;
+  font-size: larger;
+  color: #44924C;
+  padding-bottom:20px;
+}
+ 
+  .vertical-bar {
+    margin-right:10px;
+    width: 9.71px; 
+    
+    background-color: #FFCE5C;
+   
+    left: 0;
+    top: 0;
+   
+  }
+  
+  p {
+    padding-left:20px;
+    margin-top: 10px;
+    font-size: 16px;
+    width: 643px; 
+    color: white;
+   
+  }
+  
+  
+  button {
+    background-color: white;
+    color:#003145;
+    font-size: larger;
+   
+    font: bold;
+    border-radius: 8px;
+    margin-top: 20px;
+  margin-left: 150px;
+  padding: 8px 16px;
+ 
+  }
+  
+  button:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  

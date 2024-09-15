@@ -1,0 +1,57 @@
+.hackathon-form {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    align-items: flex-start;
+    gap: 20px; /* Space between fields */
+    margin-top:20px;
+  }
+  .color{
+    background: #F8F9FD;
+    font-size:150%;
+    font-weight: 500;
+    height:50px;
+    text-align-last:30px;
+   
+ 
+  }
+
+  .logo {
+    width: 50px;
+    height: auto;
+    margin-right: 20px;
+  }
+  
+  .custom-field {
+    width: 100%; /* Make input fields take the full width of the form */
+  }
+  
+  textarea {
+    height: 250px;
+  }
+  
+  .upload-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .file-upload-label {
+    cursor: pointer;
+    color: #003145;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+  }
+  
+  .cloud-icon {
+    font-size: 24px;
+    margin-right: 10px;
+  }
+  
+  .submit-button {
+    width: 100%; /* Full width button */
+    background: #44924C;
+
+  }
+  
